@@ -30,11 +30,6 @@ namespace Task1
                 .OrderByDescending(student => student.AverageScore)
                 .Take(3)
                 .ToArray();
-            //Array.Sort(students);
-
-            //int length = students.Length;
-
-            //return new Student[] {students[length - 1], students[length - 2], students[length - 3]};
         }
 
         static int CountBestStudents(Student[] students)
