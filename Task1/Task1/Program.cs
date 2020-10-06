@@ -57,7 +57,7 @@ namespace Task1
 
         static void PrintStudents(Student[] students)
         {
-            foreach(var student in students)
+            foreach(Student student in students)
             {
                 Console.WriteLine($"{student.Name} {student.Age} {student.Group} {student.AverageScore}");
             }
@@ -65,7 +65,7 @@ namespace Task1
 
         static void PrintBestStudentsForGroup(List<int> groups, Student[] students)
         {
-            foreach(var group in groups)
+            foreach(int group in groups)
             {
                 Console.WriteLine($"Лучшие студенты группы {group}: ");
                 PrintStudents(GetBestStudentsForGroup(group, students));
