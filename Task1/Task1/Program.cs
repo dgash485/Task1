@@ -77,16 +77,16 @@ namespace Task1
         {
             var students = new Student[]
             {
-                new Student("Danil", 19, 4434, 4.9),
-                new Student("Ivan", 19, 4434, 4.4),
-                new Student("Dmitriy", 19, 4434, 4.9),
-                new Student("Katya", 20, 4102, 4.9),
-                new Student("Masha", 19, 4102, 4.9),
-                new Student("Misha", 20, 4102, 4.7),
-                new Student("Petya", 22, 3407, 3.8),
-                new Student("Irina", 21, 3407, 4.2),
-                new Student("Uriy", 18, 5102, 4.7),
-                new Student("Alexander", 18, 5102, 3.4)
+                new Student("Гашигуллин Данил Айратович", 19, 4434, 4.9),
+                new Student("Салин Иван Сергеевич", 19, 4434, 4.4),
+                new Student("Сафин Дмитрий Игоревич", 19, 4434, 4.9),
+                new Student("Фролова Екатерина Юрьевна", 20, 4102, 4.9),
+                new Student("Михайлова Мария Егоровна", 19, 4102, 4.9),
+                new Student("Федеров Михаил Юрьевич", 20, 4102, 4.7),
+                new Student("Дементьев Петр Михайлович", 22, 3407, 3.8),
+                new Student("Ермишина Ирина Алексеевна", 21, 3407, 4.2),
+                new Student("Чебышев Юрий Игоревич", 18, 5102, 4.7),
+                new Student("Костин Александр Андреевич", 18, 5102, 3.4)
             };
 
             var bestStudents = ThreeBestStudents(students);
